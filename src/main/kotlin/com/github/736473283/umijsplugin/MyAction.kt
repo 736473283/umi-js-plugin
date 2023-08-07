@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.736473283.umijsplugin
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
