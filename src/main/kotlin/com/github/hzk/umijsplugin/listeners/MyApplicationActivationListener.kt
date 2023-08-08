@@ -1,4 +1,4 @@
-package com.github.736473283.umijsplugin.listeners
+package com.github.hzk.umijsplugin.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

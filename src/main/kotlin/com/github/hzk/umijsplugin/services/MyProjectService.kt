@@ -1,9 +1,9 @@
-package com.github.736473283.umijsplugin.services
+package com.github.hzk.umijsplugin.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.736473283.umijsplugin.MyBundle
+import com.github.hzk.umijsplugin.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

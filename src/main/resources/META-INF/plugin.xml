@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.736473283.umijsplugin</id>
+    <id>com.github.hzk.umijsplugin</id>
     <name>umi-js-plugin Template</name>
     <vendor>736473283</vendor>
 
@@ -9,16 +9,23 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.736473283.umijsplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.hzk.umijsplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.736473283.umijsplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.github.hzk.umijsplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
-    
+
     <actions>
-        <action class="com.github.736473283.umijsplugin.MyAction" id="MyAction">
+        <action class="com.github.hzk.umijsplugin.MyAction" id="MyAction">
             <add-to-group group-id="StructureViewPopupMenu" />
+            <add-to-group group-id="HelpMenu" anchor="after" relative-to-action="About"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt NUMPAD1"/>
+        </action>
+
+        <action id="FirstAction" class="com.github.hzk.umijsplugin.FirstAction" text="FirstAction">
+            <add-to-group group-id="HelpMenu" anchor="after" relative-to-action="About"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt NUMPAD2"/>
         </action>
     </actions>
 </idea-plugin>

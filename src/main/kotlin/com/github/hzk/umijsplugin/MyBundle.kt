@@ -1,4 +1,4 @@
-package com.github.736473283.umijsplugin
+package com.github.hzk.umijsplugin
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

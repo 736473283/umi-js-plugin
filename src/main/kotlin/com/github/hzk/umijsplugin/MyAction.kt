@@ -1,11 +1,12 @@
-package com.github.736473283.umijsplugin
+package com.github.hzk.umijsplugin
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
+import com.intellij.openapi.ui.Messages
 
 class MyAction : AnAction("My Action") {
     override fun actionPerformed(p0: AnActionEvent) {
-        TODO("Not yet implemented")
+        Messages.showInfoMessage("test", "test")
     }
 
 }

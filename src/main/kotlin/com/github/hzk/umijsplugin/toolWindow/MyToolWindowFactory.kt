@@ -1,4 +1,4 @@
-package com.github.736473283.umijsplugin.toolWindow
+package com.github.hzk.umijsplugin.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.736473283.umijsplugin.MyBundle
-import com.github.736473283.umijsplugin.services.MyProjectService
+import com.github.hzk.umijsplugin.MyBundle
+import com.github.hzk.umijsplugin.services.MyProjectService
 import javax.swing.JButton
 
 
